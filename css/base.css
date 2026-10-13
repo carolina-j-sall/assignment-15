@@ -1,8 +1,37 @@
+:root {
+  --bs-body-font-family: "Bricolage Grotesque", sans-serif;
+  --bs-font-mono: "Roboto", sans-serif;
+  --bg-col: #fff;
+}
 body {
-  padding: 0 2em 0 2em; 
+  margin: 0 auto;
   border: 2px solid red;
 }
-div {
-  padding: 1em;
+section {
+  padding: 2em;
+}
+/* div {
   border: 2px dotted blue;
+} */
+nav {
+  height: 100px;
+  border: 1px solid orange;
+}
+.navbar {
+  height: 100%;
+  text-transform: uppercase;
+}
+.card {
+  border: 2px solid #000;
+  border-radius: 20px;
+  border-bottom: 10px;
+  box-shadow: oklch(0.15 0.008 30) 6px 6px 0px 0px;
+  box-sizing: border-box;
+}
+.card-img-top {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
